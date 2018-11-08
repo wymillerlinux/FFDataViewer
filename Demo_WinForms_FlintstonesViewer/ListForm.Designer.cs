@@ -53,10 +53,10 @@
             // 
             // btn_DeleteSelected
             // 
-            this.btn_DeleteSelected.Location = new System.Drawing.Point(9, 258);
+            this.btn_DeleteSelected.Location = new System.Drawing.Point(9, 256);
             this.btn_DeleteSelected.Margin = new System.Windows.Forms.Padding(2);
             this.btn_DeleteSelected.Name = "btn_DeleteSelected";
-            this.btn_DeleteSelected.Size = new System.Drawing.Size(85, 37);
+            this.btn_DeleteSelected.Size = new System.Drawing.Size(85, 39);
             this.btn_DeleteSelected.TabIndex = 1;
             this.btn_DeleteSelected.Text = "Delete Selected";
             this.btn_DeleteSelected.UseVisualStyleBackColor = true;
@@ -86,7 +86,7 @@
             // 
             // btn_exit
             // 
-            this.btn_exit.Location = new System.Drawing.Point(443, 258);
+            this.btn_exit.Location = new System.Drawing.Point(441, 256);
             this.btn_exit.Margin = new System.Windows.Forms.Padding(2);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(81, 39);
@@ -124,7 +124,7 @@
             // 
             // btn_filter
             // 
-            this.btn_filter.Location = new System.Drawing.Point(270, 256);
+            this.btn_filter.Location = new System.Drawing.Point(269, 256);
             this.btn_filter.Name = "btn_filter";
             this.btn_filter.Size = new System.Drawing.Size(78, 39);
             this.btn_filter.TabIndex = 8;
@@ -134,7 +134,7 @@
             // 
             // btn_help
             // 
-            this.btn_help.Location = new System.Drawing.Point(355, 256);
+            this.btn_help.Location = new System.Drawing.Point(353, 256);
             this.btn_help.Name = "btn_help";
             this.btn_help.Size = new System.Drawing.Size(83, 39);
             this.btn_help.TabIndex = 9;
@@ -159,7 +159,7 @@
             this.Controls.Add(this.dataGridView_Characters);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ListForm";
-            this.Text = "Cartoon Characters";
+            this.Text = "FFDataViewer";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Characters)).EndInit();
             this.ResumeLayout(false);

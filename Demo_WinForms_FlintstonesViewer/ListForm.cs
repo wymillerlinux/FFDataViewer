@@ -70,7 +70,7 @@ namespace Demo_WinForms_FlintstonesViewer
 
         private void btn_DetailView_Click(object sender, EventArgs e)
         {
-            if (dataGridView_Characters.SelectedRows.Count == 1)
+            if (dataGridView_Characters.SelectedRows.Count == 0)
             {
                 Character character = new Character();
                 character = (Character)dataGridView_Characters.CurrentRow.DataBoundItem;
